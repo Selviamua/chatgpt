@@ -1,0 +1,9 @@
+model = "gpt-5-codex"
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+model_reasoning_effort = "high"
+
+# Optional: allow larger project instructions
+project_doc_fallback_filenames = ["TEAM_GUIDE.md", ".agents.md"]
+project_doc_max_bytes = 65536
